@@ -65,8 +65,8 @@ interface IOffset {
 }
 
 
-const client_id = '7832c433b5cf47e1b7159043ddcf689d'; // Your client id
-const client_secret = '04e1f04dd7734ddbb5a48c504323c133'; // Your secret
+const client_id = ''; // Your client id
+const client_secret = ''; // Your secret
 
 
 const LandingPage: React.FC = () => {
