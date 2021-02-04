@@ -1,6 +1,9 @@
 # Spotify Playlists Selection
 ### This an app made with React, using the Spotify API.
 
+
+<img src="https://i.imgur.com/E2Oh8ZB.png" style="height:600px;">
+
 ## Architecture
 
 - React <br/>
