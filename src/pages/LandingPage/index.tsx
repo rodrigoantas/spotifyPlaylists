@@ -237,7 +237,7 @@ const handleOffsetChanged = useCallback((val: any)=> {
     <Header>
       <SearchInput setSearch={setSearch}/>
           {country.listOfCountries && country && <Dropdown filter={country.listOfCountries} selectedValue={country.selectedCountry} changed={handleCountryChanged} options={country.listOfCountries.values}/>} 
-          {locale.listOfLocales && locale && <Dropdown filter={locale.listOfLocales} selectedValue={locale.selectedLocale} changed={handleLocaleChanged} options={country.listOfCountries.values}/>} 
+          {locale.listOfLocales && locale && <Dropdown filter={locale.listOfLocales} selectedValue={locale.selectedLocale} changed={handleLocaleChanged} options={locale.listOfLocales.values}/>} 
 
             <TimePicker filter={timestamp} changed={(e)=> {handleTimePickerChanged(e)}}/>
             <NumberInput placeholder="Padrão: 20" changed={handleLimitChanged} filter={limit}/> 
